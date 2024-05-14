@@ -1,0 +1,1587 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body {
+    // padding: 25px;
+    background-color: white;
+    color: black;
+    font-size: 25px;
+  }
+  
+  .dark-mode {
+    background-color: black;
+    color: white;
+  }
+
+
+// .dark{
+//     background-color: black;
+//     color: #fff;
+
+//     i{
+//         color: #fff;
+        
+//     }
+
+//     a{
+//         color: #fff;
+//     }
+// }
+// body{
+//     --body-bg:#000
+//     --background-color:var(var(--body-bg))
+// background-color:var(--primary-page-bg);
+// color: var(--primary-text-color);
+
+// // variables
+// // gloal
+// --primary-page-color:white;
+// --accent-color:red;
+// // theme based
+
+// --primary-text-color:black;
+// --title-panel-g:#fdfdfd;
+// --snippet-panel-bg:#fdfdfd;
+
+// }
+// body{
+//     --primary-text-color:#fff;
+//     --title-panel-g:#000;
+//     -snippet-panel-bg:#252424;
+
+
+// }
+
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow: hidden;
+    transition: 0.5s;
+    
+  }
+  
+  .overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+    
+  }
+  
+  .overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+  }
+  
+  .overlay .closebtn {
+    position: absolute;
+    top: -24px;
+    right: 6px;
+    font-size: 60px;
+}
+  span{
+    .lies{
+        font-size: 30px;
+        cursor: pointer;
+        position: relative;
+        left: 296px;
+        top: -51px;
+    }
+}
+
+
+
+@font-face {
+    font-family: "myfont2";
+    src: url(/GreatVibes-Regular-webfont.ttf);
+}
+
+@font-face {
+    font-family: "myfont";
+    src: url("/JosefinSans-Regular.ttf");
+}
+body{
+    overflow-x: hidden;
+}
+.Banner .navbar {
+    font-family: "myfont";
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* margin-top: -74px; */
+    position: relative;
+    top: -15px;
+    a{
+        text-decoration: none;
+    }
+}
+.Banner{
+
+    .navigation{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: row;
+    }
+     .logo {
+        width: 190px;
+        position: relative;
+        right: 209px;
+    }
+   
+.sun{
+    position: absolute;
+    width: 44px;
+    height: 43px;
+    top: 4%;
+    left: 86%;
+    border-radius: 54%;
+}
+    .aqua{
+        margin-top: -134px;
+    }
+    font-family:"myfont";
+    margin: 35px;
+   
+    .header{
+        font-family:"myfont";
+        position: relative;
+        top:209px ;
+        left: 35px;
+
+        .para1{
+            margin-left: -20px;
+            font-size: 15px;
+            img{
+                position: relative;
+            top: 13px;
+            border-radius: 60px;
+            }
+        }
+        .para2{
+            margin-top: -35px;
+            margin-left: -20px;
+            font-size: 15px;
+            img{
+                position: relative;
+            top: 13px;
+            border-radius: 60px;
+            }
+        }
+    }
+   
+    // .images{
+    //     margin-bottom: 30px;
+    // }
+    h2{
+        font-family:"myfont";
+        font-size: 42px;
+    }
+    p{ font-family:"myfont";
+        padding: 10px;
+        font-size: 18px;
+        margin-left: -10px;
+    }
+.button1{
+    font-family:"myfont";
+    color: white;
+    background-color: #742296;
+    border-color: #742296;
+    border-radius: 0;
+    padding: 12px;
+    border: none;
+
+}
+.para1{
+    font-family:"myfont";
+    padding: 18px;
+}
+
+.para2{
+    font-family:"myfont";
+    padding: 18px;
+}
+.tig{
+    font-family:"myfont";
+height: 100vh;
+margin-right: 12px;
+width: 200px;
+object-fit: contain;
+
+}
+
+.zo{
+    height:115vh ;
+    position: relative;
+bottom: 5vh;
+margin-right: 12px;
+width: 190px;
+object-fit: contain;
+}
+
+.zomedia{
+    height: 100vh;
+    margin-right: 10px;
+    width:190px;
+    object-fit: contain;
+}
+
+.lala{
+    height: 115vh;
+    position: relative;
+bottom: 5vh;
+margin-right: 10px;
+width: 190px;
+object-fit: contain;
+}
+.button2{
+color: black;
+border: 5px 5px 5px 5px;
+padding: 10px;
+
+border-color:#742296;
+}
+    .images{
+        margin: -32px;
+
+        flex-direction: row;
+        display: flex;
+        align-items: end;
+        justify-content: flex-end;
+        position: relative;
+        top: -233px;
+    }
+}
+
+.About{
+  
+    font-family:"myfont";
+    margin: 44px;
+    margin-top: -84px;
+    
+   display: flex; 
+    .more{
+        p{
+            font-size: 17px;
+            width: 371px;
+        }
+
+        .button3{
+            background-color: #742296;
+            padding: 10px;
+            color: white;
+            position: relative;
+            right: 95px;
+            border: none;
+            top:-26.56px;
+        }
+    img{
+    
+        width: 468px;
+        position: relative;
+        right: 98px;
+    }
+    p{
+        position: relative;
+        right: 98px;
+        bottom: 59px;
+    }
+
+    }
+    .info{
+        p{
+            margin-left: 145px;
+            font-size: 17px;
+            
+        }
+        h4{
+            font-size: 28px;
+            left: 26px;
+            position: relative;
+            top:-40px ;
+            font-size: 20px;
+        }
+    }
+    .abouttigzozo{
+    
+    object-fit: contain;
+    position: relative;
+    right: 140px;
+    top: -110px;
+    .vana{
+        position: relative;
+        right: 230px;
+        top: 283px;
+    }
+    }
+  .tube{
+    z-index: 1;
+    position: relative;
+    bottom:250px ;
+    left: 110px;
+    border-radius: 17%;
+  }
+}
+.Services{
+    
+    .arrow2{
+        position: relative;
+    right: 104px;
+    top: 236px;
+    }
+    font-family:"myfont";
+    .dance{
+        position: relative;
+        right: 88px;
+        height: 86vh;
+        
+    
+    }
+    .opac{
+        position: relative;
+        right: 60px;
+        height: 86vh;
+    }
+    }
+    
+        h4 {
+            position: relative;
+            bottom: 25px;
+            left: 69px;
+            font-size: 20px;
+        }
+
+        
+//   .hanga{
+//     .kiki{
+//         position: relative;
+//     bottom: -176px;
+//     }
+//   }
+
+   .coco{
+margin-left: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;} 
+    .digital{
+        padding-left: 19px;
+        .xxx{
+            position: relative;
+    left: 289.85px;
+    top: -14.999px;
+}
+        
+        line-height: 1.6;
+        position: relative;
+        right: 74px;
+        width: 28%;
+        font-size: 23px;
+        height: 86vh;
+        background-color: #742296;
+
+        h5{
+            color: white;
+           padding: 25px; 
+    
+    
+        }
+        ul{
+            color: white;
+        }
+    }
+
+    .rue{
+        h4 {
+            position: relative;
+            bottom: -157px;
+            left: 63px;
+            font-size: 20px;
+        }
+    }
+    
+    .collabo{
+        font-family:"myfont";
+    h4{
+        
+        position: relative;
+        top: -109px;
+
+    }
+        margin-top: 190px;
+        margin-left: 109px;
+        display: flex;
+        
+            .men{
+                width: 38%;
+                height: 55vh;
+                object-fit: cover;
+                position: relative;
+                left: 101px;
+            }
+            .ruva{
+                width: 98%;
+                height: 50vh;
+                object-fit: cover;
+            }
+            .arrow{
+                position: relative;
+                left:316.0px ;
+                bottom:52.5px ;
+            }
+            // .arrow2{
+            //     position: relative;
+            //     left:413.9px ;
+            //     bottom:52.5px ;
+            // }
+      .tindo{
+        font-family:"myfont";
+        position: relative;
+        top: 356px;
+        right:301px ;
+
+        h6{
+            font-size: 20px;
+            position: relative;
+            bottom: -15px;
+        }
+        p{
+            position: relative;
+            font-size: 18px;
+            bottom: -45px;   
+        }
+      } 
+      .mimi{
+        h6{
+            font-size: 20px;
+            position: relative;
+            bottom: 45px;
+        }
+        p{
+            position: relative;
+            bottom: 15px;
+            font-size: 18px;
+        }
+        position: relative;
+         bottom: 80px;
+         right: 240px;
+      }  
+        
+    }
+  .instagram{
+    margin-top: 110px;
+    font-family:"myfont";
+    h3{
+        text-align: center;
+    }
+    .row{
+        margin: 90px;
+        margin-left: 257PX;
+        .gal{
+            width: 127px;
+            position: relative;
+            bottom: 89px;
+        }
+      
+        .mwana{
+            position: relative;
+            bottom: 89px;
+            width: 133px;
+            margin-left: 5px;
+        }
+    
+
+        .gals-high{
+            width: 133px;
+            position: relative;
+            bottom: 89px;
+            margin-left: 3px;
+        }
+        .gogo{
+            width: 133px;
+            margin-left: 5px;
+        }
+        .yoyo{
+            width: 133px;
+            margin-left: 5px;
+        }
+      .water{
+        width: 133px;
+        margin-left: 5px;
+      }
+    }
+    .eco{
+        text-align: center;
+    }
+    .low{
+        margin-top: 15px;
+        position: relative;
+        left:640px ;
+    background-color:#742296;
+    padding: 12px;
+    color: white;
+    border-color: #742296;
+    border: none;
+    font-size: 15px;
+    }
+ h3 {
+        text-align: center;
+        position: relative;
+        bottom: 31px;
+    }
+  }
+  .Footer{
+
+    .line3{
+        margin-left: -35px; 
+        width: 91px; 
+    }
+    margin-left: -55px;
+
+    .mellow{
+        line-height: 1.8;
+        font-size: 16px;
+        margin-top: -108px;
+        margin-right: 82px;
+    }
+    
+    hr{
+        width: 134px;
+        font-weight: bolder;
+    }
+    margin-top: 40px;
+    font-family:"myfont";
+    h5{
+        font-size:16px ;
+    }
+    background-color: #742296;
+    display: flex;
+    height: 45vh;
+    width: 112%;
+    align-items: center;
+    justify-content: center;
+color: white;
+.you{
+    margin-top: 53px;
+    margin-left: -13px;
+    position: relative;
+    bottom: 55px;
+    height: 10vh;
+    // width: 120px;
+}
+.vid{
+    margin-right: 78px;
+    p{
+        font-size: 16px;
+        position: relative;
+        bottom: 42px;
+        right: 15px;
+    }
+    .gigi{
+        position: relative;
+      bottom : 23px;
+      left: -30px;
+    }
+}
+// .Footer .mellow {
+//     font-size: 16px;
+//     line-height: 1.8;
+//      margin-top: -127PX;
+// }
+.us{
+    line-height: 1.8;
+    font-size: 16px;
+    margin-top: -108px;
+}
+
+.joel{
+    margin-left: -35px;
+
+   
+}
+
+.yaya{
+    line-height: 0.4;
+    font-size: 16px;
+    margin-top: -74px;
+    margin-left: 128px;
+}
+.phon{
+    position: relative;
+    right: 37px;
+    top: 20px;
+}
+.email{
+    position: relative;
+    right: 37px;
+    top: 20px;
+}
+.loca{
+    position: relative;
+    right: 37px;
+    top: 20px;
+}
+
+.line1{
+    height: 2px;
+    width: 80px;
+    background-color: white;
+    margin-top: -1px;
+
+}
+
+.line2{
+    height: 2px;
+    width: 80px;
+    background-color: white;
+    margin-top: -1px;
+}
+
+.line3{
+    height: 2px;
+    width: 80px;
+    background-color: white;
+    margin-top: 8px;
+}
+}
+
+.jiji{
+    h4 {
+        position: relative;
+        bottom: -125px;
+        left: 68px;
+        font-size: 20px;
+    }
+}
+  @media (max-width:576px){
+    // .Services {
+    //     margin-top: -171px;
+    //     // flex-direction: column;
+    // }
+.lies{
+    position: relative;
+        left: 298px;
+        top: -69px;
+}
+    .Banner .images {
+        position: relative;
+        left: -1PX;
+        top: -189px;
+
+        .tig{
+            width: 138px;
+        }
+
+        .zo{
+            width: 138px;
+        }
+    }
+    .collabo .men {
+        height: 55vh;
+        position: relative;
+        left: -66px;
+        top: 151px;
+        width: 128%;
+    }
+
+    .instagram button.low {
+        position: relative;
+        left: 150px;
+    }
+    .Banner .sun {
+        position: absolute;
+        top: 1%;
+        width: 39px;
+        left: 70%;
+        border-radius: 69%;
+    }
+
+    .Banner .logo {
+        position: relative;
+    left: -108px;
+    top: -35px;
+    width: 109px;
+    height: 6vh;
+    }
+    .Banner{
+        p{
+            font-size: 12px;
+            text-align: center;
+        }
+.aqua{
+    margin-top: -115px;
+}
+        .navbar{
+            display: none;
+        }
+       
+        }
+        .Banner .header {
+
+            h2{
+                font-size: 20px;
+            }
+            font-family: "myfont";
+            position: relative;
+            font-size: 15px;
+            top: 61px;
+            left: 10px;
+        }
+        .coco .dance {
+            position: relative;
+            right: 61px;
+            height: 66vh;
+            top: 33px;
+            width: 196%;
+            object-fit: contain;
+        }
+        .coco .opac {
+            margin-top: 15px;
+            width: 196%;
+            position: relative;
+            right: 57px;
+            height: 66vh;
+            object-fit: contain;
+        }
+   
+    .zomedia{
+        display: none;
+    }
+    .lala{
+        display: none; 
+    }
+    .About{
+
+        margin-right: 53px;
+    h4{
+    font-size: 20px;
+}
+        .vana{
+            display: none;
+        }
+        margin-top: -292px;
+        .mask{
+            display: none;   
+        }
+        .more{
+            display: none;   
+        }
+        .abouttigzozo {
+    
+    object-fit: contain;
+    position: relative;
+    right: 115px;
+    top: -262px;
+       
+    }
+  
+   
+  }
+  .Services{
+    .dell{
+        h4 {
+            position: relative;
+          left: 42px;
+          bottom: 0px;
+            font-size: 20px;
+        }
+    }
+  }
+  
+  .instagram{
+
+   
+    .row {
+    
+        .gal{
+            position: relative;
+    bottom: 20px;
+    display: none;
+            width: 283px;
+        }
+    
+        .gals-high{
+            position: relative;
+    // bottom: 20px;
+    bottom: 1px;
+            width: 283px;  
+        }
+        .gogo{
+            position: relative;
+    bottom: 20px;
+            width: 283px;
+        }
+        .water{
+            position: relative;
+    bottom: -23px;
+            width: 283px;
+        }
+        .mwana{
+            display: none;
+            position: relative;
+    // bottom: 56px;
+            width: 283px;
+        }
+    
+        .yoyo{
+            position: relative;
+            display: none;
+    bottom: 56px;
+            width: 283px;
+        }
+        margin: 90px;
+        margin-left: 84PX;
+        position: relative;
+        top: 90px;
+    }
+    h3 {
+        text-align: center;
+        font-size: 20px;
+        position: relative;
+        bottom: -58px;}
+    
+
+  
+}
+
+.instagram {
+    margin-top: 159px;
+    font-family: "myfont";
+}
+
+.Footer .mellow {
+    width: 50%;
+    line-height: 1.8;
+    font-size: 16px;
+    margin-top: -253px;
+    margin-right: 44px;
+}
+.hanga{
+
+    .jiji {
+        position: relative;
+        top: 15px;
+    }
+    margin-top: 8px;
+    h4 {
+        position: relative;
+        bottom: 0;
+        left: 42px;
+        font-size: 20px;
+    }
+}
+
+.collabo .tindo p {
+    font-size: 13px;
+    width: 257px;
+    margin-left: -11px;
+    /* margin-bottom: 192px; */
+}
+
+.Footer .us {
+    position: relative;
+    width: 50%;
+    left: 95px;
+    margin-top: -358px;
+}
+.Footer .line3 {
+    margin-left: 1px;
+    width: 91px;
+}
+.collabo{
+
+   
+    margin-top: 29px;
+    .mimi{
+        display: none;
+    }
+    .tindo{
+        h6{
+            font-size: 19px;
+            position: relative;
+            bottom: -36px;
+        }
+        p{
+            
+            font-size: 13px;
+        }
+    
+            position: relative;
+            top: -26px;
+            right: 348px;
+        }
+   
+        object-fit: contain;
+    }
+   
+
+.xxx{
+    display: none;  
+}
+.Footer .you {
+    width: 50%;
+    margin-top: -115px;
+    margin-left: -88px;
+    position: relative;
+    bottom: -41px;
+    height: 4vh;
+}
+.Footer .joel {
+    margin-left: -3px;
+}
+.Footer .vid p {
+    font-size: 8px;
+    position: relative;
+    right: -65px;
+    top: 10px;
+}
+.Footer{
+    flex-wrap: wrap;
+   
+    // .vid{
+    //     img{
+    //         position: relative;
+    // top: -24px;
+    // left: 150px;
+    //     }
+    // }
+.yaya{
+
+    position: relative;
+    margin-top: -427px;
+    left: 108px;
+}
+    .loca{
+        width: 20px;
+    height: 20px;
+    position: relative;
+    right: 22px;
+    top: 11px;
+    }
+
+    .email{
+        width: 20px;
+    height: 20px;
+    position: relative;
+    right: 22px;
+    top: 11px;
+    }
+    .phon{
+        width: 20px;
+    height: 20px;
+    position: relative;
+    right: 22px;
+    top: 11px;
+    }
+    width: 127%;
+}
+    hr{
+        width: 74px;
+    }
+    .vid{
+        position: relative;
+        top: 86px;
+        margin-right: 190px;
+        
+    }
+    
+    h5{
+        font-size: 12px;
+    }
+    ul{
+        font-size: 8px;
+    }
+    
+
+.coco{
+    position: relative;
+        right: 30px;
+.dance{
+    position: relative;
+    right: 61px;
+    width: 196%;
+}
+    margin-left: 229px;
+
+  
+    h4 {
+        font-size: 20px;
+        position: relative;
+        bottom: 23px;
+        left: -80px;
+    }
+    flex-direction: column;
+    .arrow2{
+        display: none;
+      
+    }
+    .digital{
+        ul{
+            font-size: 16px;
+            padding-left: 56px;
+        }
+        line-height: 2.7;
+        margin-top: 53px;
+        right: 60px;
+        width: 181%;
+    font-size: 14px;
+    h5{
+        padding-left: 56px; 
+        font-size: 20px; 
+    }
+   
+    }
+}
+
+
+.Banner .zo {
+    height: 116vh;
+    position: relative;
+    bottom: -53px;
+    margin-right: 12px;
+    width: 153px;
+    -o-object-fit: contain;
+    object-fit: contain;
+}
+.Banner .header .para2 {
+    margin-left: -20px;
+    /* margin-bottom: -6px; */
+    font-size: 15px;
+    position: relative;
+    bottom: 23px;
+}
+.About .info p {
+    margin-left: 8px;
+    text-align: center;
+}
+.About .info h4 {
+    font-size: 28px;
+    position: relative;
+    left: 20px;
+    /* top: -40px; */
+    /* font-size: 20px; */
+}
+
+.para1{
+    img{
+        position: relative;
+    top: 13px;
+    }
+}
+.para2{
+    img{
+        position: relative;
+    top: 13px;
+    }
+}
+.instagram .row {
+    margin: 90px;
+    margin-left: 64PX;
+    position: relative;
+    top: 29px;
+}
+} 
+  
+@media only screen and (min-width:578px) and (max-width:768px) {
+  
+//         .lies{
+//             margin-left: 628px;
+//             font-size: 30px;
+//     cursor: pointer;
+// }
+
+.Banner h2 {
+    font-family: "myfont";
+    font-size: 40px;
+    width: 512px;
+}
+
+.Banner .header {
+    font-family: "myfont";
+    position: relative;
+    top: 209px;
+    left: 60px;
+    width: 393px;
+}
+
+.tube:hover{
+    opacity: 70%;
+
+}
+
+.Banner .sun {
+    position: absolute;
+    top: 6%;
+    left: 63%;
+}
+   .navbar{
+
+    a{
+        display: none;
+    }
+}
+    .lies{
+        font-size: 30px;
+    cursor: pointer;
+    position: relative;
+    right: -562px;
+    bottom: 66px;
+    color: #742296;
+    }
+    
+
+   .Banner .aqua {
+    margin-top: -211px;
+
+   }
+.Banner .images {
+    margin: 15px;
+    flex-direction: row;
+    display: flex;
+    align-items: end;
+    justify-content: flex-end;
+    position: relative;
+    top: -153px;
+
+    .zomedia{
+        display: none;
+    }
+} 
+
+.Banner .logo {
+    width: 213px;
+    height: 11vh;
+    position: relative;
+    right: 135px;
+}
+
+    .About .more img {
+        width: 607px;
+        position: relative;
+        right: -82px;
+
+       
+    }
+    .About .more p {
+        position: relative;
+        right: 0px;
+    }
+
+
+    .About .more .button3 {
+        background-color: #742296;
+        padding: 10px;
+        color: white;
+        position: relative;
+        left: 277px;
+        border: none;
+        top: 30px;
+    }
+   
+    .collabo .mimi {
+        position: relative;
+        bottom: 80px;
+        right: 94px;
+    }
+    .collabo {
+        font-family: "myfont";
+        margin-top: 190px;
+        margin-left: -87px;
+        display: flex;
+    }
+    .collabo .tindo {
+        font-family: "myfont", Gotham;
+        position: relative;
+        margin-top: 226px;
+        right: 175px;
+    }
+    .collabo .ruva {
+        width: 98%;
+        height: 45vh;
+        -o-object-fit: cover;
+        object-fit: cover;
+    }
+    .About .tube {
+        z-index: 1;
+        position: relative;
+        bottom: 250px;
+        left: -238px;
+    }
+
+    .collabo .arrow {
+        position: relative;
+        left: 152px;
+        bottom: 51.5px;
+    }
+   
+        .aqua{
+            margin-top: -64px;
+        }
+.header{
+        position: relative;
+        top: 4px;
+      }
+   
+     
+      .About{
+
+        .more{
+            position: relative;
+              right: 62px;
+        }
+        margin-top: -379px;
+        // margin: -25px;
+    }
+        .tube{
+            width: 60px;
+    height: 60px;
+    position: relative;
+    left: -202px;
+        }
+        .abouttigzozo{
+            display: none;
+        }
+        .info{
+            display: none;
+        }
+
+
+        .Services{
+            margin-top: 121px;
+            flex-direction: column;
+    
+            .digital{
+                display: none;
+                
+               
+            }
+            
+            
+h4{
+    position: relative;
+    bottom: 0px;
+    left: 0px;
+}            
+          }
+          .Footer{
+
+          
+
+       .yaya{  
+        position: relative;
+        left: 40px;}   
+            width: 107%;
+           
+            .yaya{
+                margin-top: 20px;
+            }
+          }
+          .About .more p {
+            position: relative;
+            right: -106px;
+            bottom: -4px;
+            width: 485px;
+            text-align: center;
+        }
+          .instagram{
+            
+            margin-top: 143px;
+            .low{
+                position: relative;
+                left: 347px;
+            }
+          
+          }
+        
+          .Footer .yaya {
+            position: relative;
+            left: -195px;
+            width: 453px;
+            bottom: 165px;
+        }
+        .Footer .us {
+            line-height: 1.8;
+            font-size: 16px;
+            margin-left: 170px;
+            margin-top: 90px;
+        }
+        .Footer .mellow {
+            font-size: 16px;
+            line-height: 1.8;
+            position: relative;
+            left: 57px;
+            bottom: -45px;
+        }
+        .Footer .vid {
+            margin-bottom: 206px;
+         position: relative;
+         left: 198px;
+        }
+        .lies {
+            font-size: 56px;
+            cursor: pointer;
+            position: relative;
+            right: -605px;
+            bottom: 88px;
+            color: #742296;
+        }
+
+
+        .jiji h4 {
+            position: relative;
+            top: 108px;
+            font-size: 20px;
+            bottom: 0;
+            left: 0;
+        }
+        .Services .opac {
+            position: relative;
+            right: 60px;
+            height: 51vh;
+            width: 306px;
+        }
+        .Services .dance {
+            position: relative;
+            right: 88px;
+            height: 51vh;
+        }
+
+        .instagram .row {
+            margin: 90px;
+            margin-left: 261PX;
+        }
+        } 
+          
+           
+        
+      
+     
+
+    
+    @media screen and (min-width:912px) and (max-width:1024px) {
+
+        .jiji{
+            h4{
+                font-size: 34px;
+            }
+        }
+        .sun{
+            display: none;
+        }
+
+        .Banner .logo {
+            width: 431px;
+            height: 11vh;
+            position: relative;
+            right: 74px;
+        }
+        .Banner .header {
+            font-family: "myfont";
+            position: relative;
+            top: 195px;
+            left: 25px;
+        }
+
+        .Banner .sun {
+            position: absolute;
+            top: 3%;
+            left: 90%;
+        }
+
+        .Banner .images {
+            position: relative;
+            top: -414px;
+            right: -66px;
+        }
+        .Banner{
+            .aqua{
+                margin-top: -194px;
+            }
+            .lies{
+                display: none;
+            }
+       
+        }   
+        
+
+       .Services{
+
+        h4{
+            font-size: 34px;
+            position: relative;
+            left: 237px;
+        }
+        margin-top: -655px;
+        .dance{
+            width: 726px; 
+            position: relative;
+             right: -18px;
+        }
+       } 
+        .digital{
+            width: 700px;
+            height: 65vh;
+            margin-top: 55px;
+            position: relative;
+            right: -18px;
+            font-size: 32px;
+        }
+.About{
+
+    h4{
+        font-size: 34px;
+    }
+    position: relative;
+    top: -651px;
+}
+
+
+.coco {
+
+    margin-left: -10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    h4 {
+        font-size: 34px;
+        position: relative;
+        bottom: 62px;
+        left: 7px;
+    }
+}
+
+
+.collabo .men {
+    height: 56vh;
+    position: relative;
+    left: -96px;
+    top: 126px;
+    width: 111%;
+}
+.About .more p {
+    position: relative;
+    right: 98px;
+    bottom: 59px;
+    width: 373px;
+}
+.About .info p {
+    margin-left: 33px;
+    font-size: 17px;
+    width: 316px;
+}
+.collabo {
+    font-family: "myfont";
+    margin-top: 190px;
+    display: flex;
+    flex-direction: column;
+}
+
+.collabo .mimi {
+
+    p{
+        font-size: 34px;
+    }
+h6{
+    font-size: 34px;
+}
+    .ruva{
+        width: 134%;
+        
+    }
+    position: relative;
+    top: 91px;
+    right: 98px;
+    
+
+   
+}
+.Services .arrow2 {
+  display: none;
+}
+.collabo{
+    .tindo{
+        margin-top: 159px;
+        p{
+            position: relative;
+            bottom: 376px;
+            left: 203px;
+            font-size: 37px;
+        }
+    }
+
+    .arrow{
+        display: none;
+    }
+    .arrow2{
+        display: none;
+    }
+}
+.instagram .low {
+    margin-top: 15px;
+    position: relative;
+    left: 468px;
+    }
+    .water{
+        display: none;
+    }
+.xxx{
+    display: none;
+}
+.Services{
+   
+    .opac{
+        display: none;
+    }
+}
+
+.instagram {
+    h3{
+        font-size: 34px;
+    }
+    margin-top: 130px;
+    
+}
+
+
+.Footer{
+    height: 18vh;
+    .you{
+        height: 4.5vh;
+    width: 197px;
+    }
+}
+
+.Footer .vid {
+    margin-right: 20px;
+}
+.instagram .row {
+    margin: 79px;
+    margin-left: 119PX;
+}
+}  
+
+    @media (min-width:1025px) {
+        .lies{
+            display: none;
+        }
+      }
+     
