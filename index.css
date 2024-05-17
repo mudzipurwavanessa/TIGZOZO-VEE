@@ -278,10 +278,11 @@ body {
 .Services {
   font-family: "myfont";
 }
-.Services .arrow2 {
-  position: relative;
-  right: 104px;
-  top: 236px;
+.Services .lylak {
+  height: 2px;
+  width: 80px;
+  background-color: white;
+  margin-top: -1px;
 }
 .Services .dance {
   position: relative;
@@ -299,6 +300,12 @@ h4 {
   bottom: 25px;
   left: 69px;
   font-size: 20px;
+}
+
+.Services .arrow2 {
+  position: relative;
+  right: 104px;
+  top: 243px;
 }
 
 .coco {
@@ -321,8 +328,8 @@ h4 {
 }
 .digital .xxx {
   position: relative;
-  left: 289.85px;
-  top: -14.999px;
+  left: 290.05px;
+  top: 1.45px;
 }
 .digital h5 {
   color: white;
@@ -365,8 +372,8 @@ h4 {
 }
 .collabo .arrow {
   position: relative;
-  left: 316px;
-  bottom: 52.5px;
+  left: 332px;
+  bottom: 54.5px;
 }
 .collabo .tindo {
   font-family: "myfont";
@@ -574,13 +581,20 @@ h4 {
   .Banner .images {
     position: relative;
     left: -1PX;
-    top: -189px;
+    top: -170px;
   }
   .Banner .images .tig {
     width: 138px;
   }
   .Banner .images .zo {
     width: 138px;
+  }
+  .Services .lylak {
+    height: 2px;
+    width: 80px;
+    background-color: white;
+    margin-top: -1px;
+    margin-left: 50px;
   }
   .collabo .men {
     height: 55vh;
@@ -636,6 +650,11 @@ h4 {
     -o-object-fit: contain;
        object-fit: contain;
   }
+  .Banner p {
+    font-family: "myfont";
+    padding: 10px;
+    margin-left: -80px;
+  }
   .coco .opac {
     margin-top: 15px;
     width: 196%;
@@ -653,7 +672,7 @@ h4 {
   }
   .About {
     margin-right: 53px;
-    margin-top: -292px;
+    margin-top: -244px;
   }
   .About h4 {
     font-size: 20px;
@@ -732,7 +751,7 @@ h4 {
     width: 50%;
     line-height: 1.8;
     font-size: 16px;
-    margin-top: -253px;
+    margin-top: -230px;
     margin-right: 89px;
   }
   .hanga {
@@ -751,14 +770,19 @@ h4 {
   .collabo .tindo p {
     font-size: 13px;
     width: 257px;
-    margin-left: -11px;
+    margin-left: -58px;
     /* margin-bottom: 192px; */
+  }
+  .Banner .header .para1 {
+    margin-left: -20px;
+    margin-bottom: 18px;
+    font-size: 15px;
   }
   .Footer .us {
     position: relative;
     width: 50%;
     left: 81px;
-    margin-top: -358px;
+    margin-top: -348px;
   }
   .Footer .line3 {
     margin-left: 1px;
@@ -795,6 +819,7 @@ h4 {
     position: relative;
     bottom: -41px;
     height: 4vh;
+    display: none;
   }
   .Footer .joel {
     margin-left: -3px;
@@ -811,7 +836,7 @@ h4 {
   }
   .Footer .yaya {
     position: relative;
-    margin-top: -427px;
+    margin-top: -431px;
     left: 108px;
   }
   .Footer .loca {
@@ -1011,12 +1036,12 @@ h4 {
   .collabo .tindo {
     font-family: "myfont", Gotham;
     position: relative;
-    margin-top: 226px;
+    margin-top: -32px;
     right: 175px;
   }
   .collabo .ruva {
-    width: 98%;
-    height: 45vh;
+    width: 134%;
+    height: 30vh;
     -o-object-fit: cover;
     object-fit: cover;
   }
@@ -1028,8 +1053,17 @@ h4 {
   }
   .collabo .arrow {
     position: relative;
-    left: 152px;
+    left: 269px;
     bottom: 51.5px;
+  }
+  .collabo .men {
+    width: 44%;
+    height: 35vh;
+    -o-object-fit: cover;
+    object-fit: cover;
+    position: relative;
+    left: 101px;
+    top: -43px;
   }
   .aqua {
     margin-top: -64px;
@@ -1087,7 +1121,7 @@ h4 {
     text-align: center;
   }
   .instagram {
-    margin-top: 143px;
+    margin-top: 141px;
   }
   .instagram .low {
     position: relative;

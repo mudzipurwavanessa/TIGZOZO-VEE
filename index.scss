@@ -340,12 +340,12 @@ border-color:#742296;
   }
 }
 .Services{
-    
-    .arrow2{
-        position: relative;
-    right: 104px;
-    top: 236px;
-    }
+   .lylak{
+    height: 2px;
+    width: 80px;
+    background-color: white;
+    margin-top: -1px;
+   }
     font-family:"myfont";
     .dance{
         position: relative;
@@ -375,7 +375,11 @@ border-color:#742296;
 //     bottom: -176px;
 //     }
 //   }
-
+.Services .arrow2 {
+    position: relative;
+    right: 104px;
+    top: 243px;
+}
    .coco{
 margin-left: 160px;
     display: flex;
@@ -386,8 +390,8 @@ margin-left: 160px;
         padding-left: 19px;
         .xxx{
             position: relative;
-    left: 289.85px;
-    top: -14.999px;
+    left: 290.05px;
+    top: 1.45px;
 }
         
         line-height: 1.6;
@@ -444,8 +448,8 @@ margin-left: 160px;
             }
             .arrow{
                 position: relative;
-                left:316.0px ;
-                bottom:52.5px ;
+                left:332.0px ;
+                bottom:54.5px ;
             }
             // .arrow2{
             //     position: relative;
@@ -684,7 +688,7 @@ color: white;
     .Banner .images {
         position: relative;
         left: -1PX;
-        top: -189px;
+        top: -170px;
 
         .tig{
             width: 138px;
@@ -693,6 +697,13 @@ color: white;
         .zo{
             width: 138px;
         }
+    }
+    .Services .lylak {
+        height: 2px;
+        width: 80px;
+        background-color: white;
+        margin-top: -1px;
+        margin-left: 50px;
     }
     .collabo .men {
         height: 55vh;
@@ -753,6 +764,11 @@ color: white;
             width: 196%;
             object-fit: contain;
         }
+        .Banner p {
+            font-family: "myfont";
+            padding: 10px;
+            margin-left: -80px;
+        }
         .coco .opac {
             margin-top: 15px;
             width: 196%;
@@ -777,7 +793,7 @@ color: white;
         .vana{
             display: none;
         }
-        margin-top: -292px;
+        margin-top: -244px;
         .mask{
             display: none;   
         }
@@ -871,7 +887,7 @@ color: white;
     width: 50%;
     line-height: 1.8;
     font-size: 16px;
-    margin-top: -253px;
+    margin-top: -230px;
     margin-right: 89px;
 }
 .hanga{
@@ -892,15 +908,19 @@ color: white;
 .collabo .tindo p {
     font-size: 13px;
     width: 257px;
-    margin-left: -11px;
+    margin-left: -58px;
     /* margin-bottom: 192px; */
 }
-
+.Banner .header .para1 {
+    margin-left: -20px;
+    margin-bottom: 18px;
+    font-size: 15px;
+}
 .Footer .us {
     position: relative;
     width: 50%;
     left: 81px;
-    margin-top: -358px;
+    margin-top: -348px;
 }
 .Footer .line3 {
     margin-left: 1px;
@@ -943,6 +963,7 @@ color: white;
     position: relative;
     bottom: -41px;
     height: 4vh;
+    display: none;
     
 
    
@@ -969,7 +990,7 @@ color: white;
 .yaya{
 
     position: relative;
-    margin-top: -427px;
+    margin-top: -431px;
     left: 108px;
 }
     .loca{
@@ -1213,12 +1234,12 @@ color: white;
     .collabo .tindo {
         font-family: "myfont", Gotham;
         position: relative;
-        margin-top: 226px;
+        margin-top: -32px;
         right: 175px;
     }
     .collabo .ruva {
-        width: 98%;
-        height: 45vh;
+        width: 134%;
+        height: 30vh;
         -o-object-fit: cover;
         object-fit: cover;
     }
@@ -1231,10 +1252,18 @@ color: white;
 
     .collabo .arrow {
         position: relative;
-        left: 152px;
+        left: 269px;
         bottom: 51.5px;
     }
-   
+    .collabo .men {
+        width: 44%;
+        height: 35vh;
+        -o-object-fit: cover;
+        object-fit: cover;
+        position: relative;
+        left: 101px;
+        top: -43px;
+    }
         .aqua{
             margin-top: -64px;
         }
@@ -1306,7 +1335,7 @@ h4{
         }
           .instagram{
             
-            margin-top: 143px;
+            margin-top: 141px;
             .low{
                 position: relative;
                 left: 347px;
